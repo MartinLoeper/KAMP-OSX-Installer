@@ -1,2 +1,9 @@
 language: generic
 script: tar -zcvf eclipse-inst-mac64.tar.gz eclipse-inst-mac64
+deploy:
+  provider: releases
+  api_key:
+    secure: RHw8UHHn/MRjyT/af8h+myZY1dTnZdU36ob1KqwOmo7QLoEBk0Do89NhpFALfGipSJWQeQSvmAwisdMpfnGXqC3z6MfWTQ7nWHAjyn1GII2NTKhd2mId0fURzFDX8BiWWBxloatuTE0bJ5rfzNwdRLdLTik4hhRMDtY6h1CO8DxqTRs88hc0i271TGZMh21cUwHQhcGAUSTstD6Nx7RgZOt3YGn+L6Jakq9nZjse6YutsavP+eZNhSj1uOCs/aN9BtTrEYYcTqiVutMfvjX65bgRKbPAZgLJEYoZmh0ABdVv5S6n8yhWok2qGWwgxReX5QWJUfHijXPniPTwaZ1I1a0SSXxQUFxEtJ7gQtAuaWDBOJurFToFAEXwRyLlKTI0+nxww5dyVFyU5Z6DrffPiN2oDAQXka5EPA+Vp+B2pwm8ISUY31j1lgcgZu1YSMUgyAlWzFheMP0Ra0NTYraMlMCdb/3BQPlABskzMdp1wfPG09Nnoq7gQjGNQl7ZIY55pmIOTuD8rIUQLEt7L/KF0+t2RdO9rKXJIajMFKgprMWSxLOHcuoMfarPANzivHDkeoDDjICFGDS+huBkmHejT+0BYFZmERXiG/WHK0Xedk9dv9ANlXQoLPzKBb1sT9kN6tR5l7n8zBKz7FZ8i7ZHGBB8OCrTqeoj+AZwpMG8vPU=
+  file: eclipse-inst-mac64.tar.gz
+  on:
+    repo: MartinLoeper/KAMP-OSX-Installer
