@@ -1,0 +1,2 @@
+language: generic
+script: tar -zcvf eclipse-inst-mac64.tar.gz eclipse-inst-mac64
