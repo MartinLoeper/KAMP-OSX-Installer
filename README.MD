@@ -6,5 +6,5 @@ This is the installer for the KAMP OSX Eclipse Product.
 
 ### Other Operating Systems
 - Windows 64-bit: https://github.com/MartinLoeper/KAMP-Windows-Installer
-- Windows 32-bit: https://github.com/MartinLoeper/KAMP-Windows-32-bit-Installer
+- Windows 32-bit: https://github.com/MartinLoeper/KAMP-Windows-32bit-Installer
 - Linux 64-bit: https://github.com/MartinLoeper/KAMP-Linux-Installer
